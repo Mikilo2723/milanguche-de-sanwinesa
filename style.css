@@ -1,0 +1,191 @@
+*{
+	margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:#65DEF1;
+}
+.Container{
+    margin: 0 auto;
+    padding: 0%;
+    text-align: center;
+    width: 800px;
+    
+}
+
+nav{
+	
+    width: 100%;
+    background-color:#65DEF1 ;
+    display: flex;
+	position: sticky;
+	top:0px;
+	z-index: 3;
+	margin-bottom: 10px;
+	
+}
+
+
+.NavDiv{
+    width: 33%;
+    float: left;
+
+}
+
+.SectionMain{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background-color: #A8DCD1;
+    
+}
+
+.SectionMainLeft{
+    width: 70%;
+    padding: 10px;
+}
+
+.SectionMainRight{
+	
+    width: 30%;
+    background-color:#46AF98;
+}
+
+.SectionMainRight img{
+    width: 90%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 25%;
+
+}
+
+ .SectionMainLeft .SectionMainLeftImg img{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+.myButton {
+	box-shadow: 3px 3px 0px 0px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	border:3px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#EDE3E9;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:18px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myTittle {
+	box-shadow: 9px 19px 12px -18px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:30px;
+	border:3px solid #29668f;
+	display:inline-block;
+	color:#EDE3E9;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	padding:21px 43px;
+	text-decoration:none;
+	text-shadow:1px 2px 15px black;
+}
+
+.FooterMain{
+	box-shadow: 3px 3px 0px 0px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	display: flex;
+	margin-top: 20px;
+	padding-top: 15px;
+	
+
+	
+}
+.PieIzquierdo{
+	color: white;
+	width: 50%;
+	text-decoration: none;
+	
+}
+
+.PieDerecho{
+	width: 50%;
+}
+
+.myButtonFooter{
+	
+		box-shadow: 3px 3px 0px 0px #276873;
+		background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+		background-color:#599bb3;
+		border-radius:8px;
+		border:3px solid #29668f;
+		display:inline-block;
+		cursor:pointer;
+		color:#EDE3E9;
+		font-family:Arial;
+		font-size:17px;
+		font-weight:bold;
+		padding:5px 10px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #3d768a;
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		text-align: center;
+	
+}
+
+.PieDerecho{
+	width: 50%;
+	font-size:20px;
+	text-align: center;
+	color: white;
+}
+
+.ClassIconFb a{
+	font-size: 70px;
+    color: blue;
+}
+.ClassIconIg a{
+	font-size: 70px;
+	color: orange;
+}
+.ClassIconTw a{
+	font-size: 70px;
+    color: blue;
+	width: 50%;
+}
+
+.myButtonFooter:hover{
+		background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+		background-color:#408c99;
+}
+
+ion-icon{
+	background-color: white;
+	border-radius: 70%;
+}
+
+
+
